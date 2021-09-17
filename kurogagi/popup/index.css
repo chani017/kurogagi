@@ -1,0 +1,324 @@
+header{
+    background: #910023;
+    width: 360px; 
+    height: 60px;
+}
+
+main{
+    background: #630000;
+    width: 360px; 
+    height: 195px;
+}
+        
+.main-title{
+    position: absolute;
+    width: 97px;
+    height: 35px;
+    left: 23px;
+    top: 15px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: medium;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.sub-title{
+    position: absolute;
+    width: 120px;
+    height: 28px;
+    left: 107px;
+    top: 21px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: medium;
+    font-size: 5px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.developer{
+    text-decoration: none;
+    position: absolute;
+    width: 120px;
+    height: 28px;
+    left: 270px;
+    top: 24px;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.btnkushome{
+    text-decoration: none;
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    left: 20px;
+    top: 80px;
+    background: #FFFFFF;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #910023;
+}
+
+.btnkushome:hover{
+    color: #ff782d;
+    cursor: pointer;
+}
+
+.btnkushome:active{
+    transform: translateY(5px);
+}
+
+.btnkupid{
+    text-decoration: none;
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    left: 135px;
+    top: 80px;
+    background: #FFFFFF;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #910023;
+}
+
+.btnkupid:hover{
+    color: #ff782d;
+    cursor: pointer;
+}
+
+.btnkupid:active{
+    transform: translateY(5px);
+}
+
+.btnkuseum{
+    text-decoration: none;
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    left: 250px;
+    top: 80px;
+    background: #FFFFFF;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #910023;
+}
+
+.btnkuseum:hover{
+    color: #ff782d;
+    cursor: pointer;
+}
+
+.btnkuseum:active{
+    transform: translateY(5px);
+}
+
+.btnkubb{
+    text-decoration: none;
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    left: 20px;
+    top: 140px;
+    background: #FFFFFF;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #910023;
+}
+
+.btnkubb:hover{
+    color: #ff782d;
+    cursor: pointer;
+}
+
+.btnkubb:active{
+    transform: translateY(5px);
+}
+
+.btnkuslib{
+    text-decoration: none;
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    left: 135px;
+    top: 140px;
+    background: #FFFFFF;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #910023;
+}
+
+.btnkuslib:hover{
+    color: #ff782d;
+    cursor: pointer;
+}
+
+.btnkuslib:active{
+    transform: translateY(5px);
+}
+
+.btnkusdomitel{
+    text-decoration: none;
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    left: 250px;
+    top: 140px;
+    background: #FFFFFF;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #910023;
+}
+
+.btnkusdomitel:hover{
+    color: #ff782d;
+    cursor: pointer;
+}
+
+.btnkusdomitel:active{
+    transform: translateY(5px);
+}
+
+.btnkusugang{
+    text-decoration: none;
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    left: 20px;
+    top: 200px;
+    background: #FFFFFF;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #910023;
+}
+
+.btnkusugang:hover{
+    color: #ff782d;
+    cursor: pointer;
+}
+
+.btnkusugang:active{
+    transform: translateY(5px);
+}
+
+.btnkugrade{
+    text-decoration: none;
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    left: 135px;
+    top: 200px;
+    background: #FFFFFF;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #910023;
+}
+
+.btnkugrade:hover{
+    color: #ff782d;
+    cursor: pointer;
+}
+
+.btnkugrade:active{
+    transform: translateY(5px);
+}
+
+.btnkuscal{
+    text-decoration: none;
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    left: 250px;
+    top: 200px;
+    background: #FFFFFF;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #910023;
+}
+
+.btnkuscal:hover{
+    color: #ff782d;
+    cursor: pointer;
+}
+
+.btnkuscal:active{
+    transform: translateY(5px);
+}
