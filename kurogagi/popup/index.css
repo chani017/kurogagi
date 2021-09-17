@@ -27,13 +27,13 @@ main{
 .sub-title{
     position: absolute;
     width: 120px;
-    height: 28px;
+    height: 25px;
     left: 107px;
-    top: 21px;
+    top: 17px;
     font-family: Noto Sans KR;
     font-style: normal;
     font-weight: medium;
-    font-size: 5px;
+    font-size: 10px;
     line-height: 14px;
     color: #FFFFFF;
 }
