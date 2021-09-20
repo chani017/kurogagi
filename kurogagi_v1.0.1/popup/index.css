@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css); 
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    background: #630000;
+    margin: 0px;
+    border: 3px solid white;
+}
+
+.header{
+    background: #910023;
+    width: 368px;
+    height: 60px;
+    color: #FFFFFF;
+}
+
+.main-title{
+    position: absolute;
+    left: 18px;
+    top: 4px;
+    font-size: 20px;
+}
+
+.sub-title{
+    position: absolute;
+    left: 104px;
+    top: 9px;
+    font-size: 10px;
+}
+
+.developer{
+    text-decoration: none;
+    position: absolute;
+    left: 275px;
+    top: 17px;
+    font-weight: bold;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.button{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 113px 113px 113px;
+    grid-template-rows: 55px 55px 55px 55px 16px;
+    grid-template-areas: 'header header header'
+                         'btnkushome btnkupid btnseum'
+                         'btnkubb btnkuslib btnkumail'
+                         'btnkusugang btngrade btnkuscal'
+                         'btnkusjctl btnkuscs btnet';
+}
+
+.button > a{
+    margin-top: 11px;
+    margin-left: 12px;
+    text-decoration: none;
+    width: 108px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    font-size: 13px;
+    color: #910023;
+    display: flex;
+    align-items: center;
+}
+
+.button > a:hover{
+    color: #ff782d;
+    cursor: pointer;
+}
+
+.button > a:active{
+    transform: translateY(5px);
+}
+
+img{
+    vertical-align: middle;
+}
