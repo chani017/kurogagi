@@ -8,3 +8,5 @@
 | whale   | v1.0.1 | 2021.09.22 |  [심사중] | |
 
 Special Thanks to 부경대 Jimmy Park
+
+Icons made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com)
