@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css); 
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    background: #630000;
+    margin: 0px;
+    border: 2px solid white;
+    line-height: 16px;
+}
+
+.header{
+    background: #910023;
+    width: 368px;
+    height: 60px;
+    color: #FFFFFF;
+}
+
+.main-title{
+    position: absolute;
+    left: 18px;
+    top: 10px;
+    font-size: 21px;
+}
+
+.sub-title{
+    position: absolute;
+    left: 105px;
+    top: 10px;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.developer{
+    text-decoration: none;
+    position: absolute;
+    left: 275px;
+    top: 18px;
+    font-weight: bold;
+    font-size: 10px;
+    color: #FFFFFF;
+    line-height: 15px;
+}
+
+.button{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 113px 113px 113px;
+    grid-template-rows: 55px 55px 55px 55px 55px 75px;
+    grid-template-areas: 'btnkushome btnkupid btnseum'
+                         'btnkubb btnkuslib btnkumail'
+                         'btnkusugang btngrade btnkuscal'
+                         'btnkusjctl btnkuscs btncdc'
+                         'btnet selectBox selectBox';
+}
+
+.button > a{
+    z-index: 3;
+    margin-top: 11px;
+    margin-left: 12px;
+    text-decoration: none;
+    width: 110px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    font-size: 13px;
+    color: #910023;
+    display: flex;
+    align-items: center;
+}
+
+.button > a:hover{
+    color: #ff782d;
+    cursor: pointer;
+}
+
+.button > a:active{
+    transform: translateY(5px);
+}
+
+.button img{
+    vertical-align: middle;
+    image-rendering: auto;
+    width: 30%;
+    padding: 3px;
+}
+
+select{
+    position: absolute;
+    width: 346px;
+    height: 50px;
+    padding-left: 4px;
+    margin-left: 12px;
+    margin-top: -64px;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    color: #910023;
+    font-family: inherit;
+    font-weight: bold;
+    outline: none;
+}
+
+select:hover{
+    cursor: pointer;
+}
