@@ -7,6 +7,6 @@
 | chrome  | v1.1.1 | 2021.09.28 | [링크](https://chrome.google.com/webstore/detail/%EC%BF%A0%EB%A1%9C%EA%B0%80%EA%B8%B0-kurogagi/dgiidejegngpoiajlkajidecnlaklljb?hl=ko&authuser=0)| v1.1.2 심사중 |
 | whale   | v1.1.1 | 2021.09.28 |  [링크](https://store.whale.naver.com/detail/gfaboonopainllkgphjcaiddlonphkgh?hl=null) | v1.1.2 심사중 |
 
-Special Thanks to 부경대 Jimmy Park
+Special Thanks to 부경대 Jimmy Park, 경북대 Jin
 
 Icons made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com)
