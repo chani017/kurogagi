@@ -4,8 +4,8 @@
 
 | 브라우저 | 버전 | 최근 업데이트일    |  다운로드  | 비고 |
 | ------- | ---- | ------------------ | ---- | ---- |
-| chrome  | v1.1.1 | 2021.09.26 | [링크](https://chrome.google.com/webstore/detail/%EC%BF%A0%EB%A1%9C%EA%B0%80%EA%B8%B0-kurogagi/dgiidejegngpoiajlkajidecnlaklljb?hl=ko&authuser=0)|  |
-| whale   | v1.0.1 | 2021.09.27 |  [링크](https://store.whale.naver.com/detail/gfaboonopainllkgphjcaiddlonphkgh?hl=null) | v1.1.1 심사중 |
+| chrome  | v1.1.1 | 2021.09.28 | [링크](https://chrome.google.com/webstore/detail/%EC%BF%A0%EB%A1%9C%EA%B0%80%EA%B8%B0-kurogagi/dgiidejegngpoiajlkajidecnlaklljb?hl=ko&authuser=0)|  |
+| whale   | v1.1.1 | 2021.09.28 |  [링크](https://store.whale.naver.com/detail/gfaboonopainllkgphjcaiddlonphkgh?hl=null) | v1.1.2 심사중 |
 
 Special Thanks to 부경대 Jimmy Park
 
