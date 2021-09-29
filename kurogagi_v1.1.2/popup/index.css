@@ -81,7 +81,7 @@ body{
 
 select{
     position: absolute;
-    width: 228px; /* long: 346px, short: 226px, normal: 285px */
+    width: 228px; /* long: 346px, short: 228px, normal: 285px */
     height: 37px;
     padding-left: 12px;
     top: 14px;
