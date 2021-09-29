@@ -20,13 +20,6 @@ body{
     background-size: 500px;
 }
 
-.main-title{
-    position: absolute;
-    left: 18px;
-    top: 10px;
-    font-size: 21px;
-}
-
 .sub-title{
     z-index: 2;
     position: absolute;
