@@ -1,0 +1,40 @@
+{
+    "manifest_version": 2,   
+    "name": "쿠로가기 KUROGAGI",
+    "description": "고려대학교 세종캠퍼스 학생들의 필수 사이트 모음",
+    "version": "1.2.1",
+      "icons": {
+        "16": "/icons/ku_logo.png",
+        "48": "/icons/ku_logo.png",
+        "128": "/icons/ku_logo.png"
+      },
+      "browser_action": {
+          "default_popup": "./popup/index.html",
+          "default_icon": {
+              "16":"./icons/ku_logo.png"
+          }
+      },
+      "permissions": [
+          "https://sejong.korea.ac.kr/kr",
+          "https://portal.korea.ac.kr/front/Intro.kpd",
+          "https://sejong.korea.ac.kr/academics/administration/calendar/undergraduate",
+          "https://kulms.korea.ac.kr/webapps/login/",
+          "https://libs.korea.ac.kr/",
+          "https://mail.korea.ac.kr/",
+          "https://sugang.korea.ac.kr/",
+          "https://sugang.korea.ac.kr/grade/",
+          "https://kuseum.korea.ac.kr/",
+          "http://kusjctl.korea.ac.kr/",
+          "https://sejong.korea.ac.kr/mbshome/mbs/counseling/",
+          "https://sejong.korea.ac.kr/mbshome/mbs/cdc/index.do",
+          "https://dormitel.korea.ac.kr/mbshome/mbs/hoyeon/index.do",
+          "https://sejong.korea.ac.kr/about/campus/telephone_directory",
+          "https://everytime.kr/",
+          "http://sejong.korea.ac.kr/campuslife/notice/college",
+          "https://sejong.korea.ac.kr/user/boardList.do?handle=61751&siteId=kr&id=kr_050107000000",
+          "https://sejong.korea.ac.kr/user/boardList.do?handle=127492&siteId=kr&id=kr_050113000000",
+          "https://sejong.korea.ac.kr/campuslife/notice/scholarship",
+          "https://sejong.korea.ac.kr/campuslife/notice/career",
+          "https://sejong.korea.ac.kr/user/boardList.do?handle=101685&siteId=kr&id=kr_050108020000"
+      ]
+    }
