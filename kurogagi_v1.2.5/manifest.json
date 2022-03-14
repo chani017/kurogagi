@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,   
+    "name": "쿠로가기 KUROGAGI",
+    "description": "고려대학교 세종캠퍼스 학생들의 필수 사이트 모음",
+    "version": "1.2.5",
+      "icons": {
+        "128":"./icons/ku_logo_128.png",
+        "256":"./icons/ku_logo_256.png"
+      },
+      "browser_action": {
+          "default_popup": "./popup/popup.html",
+          "default_icon":"./icons/ku_logo_256.png"
+      },
+      "permissions": [
+        "https://*.korea.ac.kr/*"
+      ]
+    }
