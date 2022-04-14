@@ -5,7 +5,7 @@
 | 브라우저 | 버전 | 최근 업데이트일    |  다운로드  | 비고 |
 | ------- | ---- | ------------------ | ---- | ---- |
 | chrome  | v1.2.5 | 2022.03.13 | [링크](https://chrome.google.com/webstore/detail/%EC%BF%A0%EB%A1%9C%EA%B0%80%EA%B8%B0-kurogagi/dgiidejegngpoiajlkajidecnlaklljb?hl=ko&authuser=0)|  |
-| whale   | v1.2.4 | 2022.02.11 |  [링크](https://store.whale.naver.com/detail/gfaboonopainllkgphjcaiddlonphkgh?hl=null) | v1.2.5 검토중  |
+| whale   | v1.2.5 | 2022.03.14 |  [링크](https://store.whale.naver.com/detail/gfaboonopainllkgphjcaiddlonphkgh?hl=null) |  |
 
 Special Thanks to 부경대 Jimmy Park, 경북대 Jin
 
