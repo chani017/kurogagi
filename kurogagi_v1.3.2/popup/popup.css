@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css);
+
+:root {
+    --font-size-sm: 2.5vw;
+  }
+
+html {
+    width: fit-content;
+    height: fit-content;
+}
+
+body {
+    font-family: 'Pretendard';
+    background: #630000;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px;
+    border: 2px solid #FFFFFF;
+    line-height: 16px;
+}
+
+.header {
+    z-index: 1;
+    width: 368px;
+    height: 200px;
+    background-image: url(/icons/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100%;
+    margin-top: -16px;
+}
+
+.sub-title {
+    z-index: 2;
+    position: absolute;
+    left: 251px;
+    top: 9px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.footer {
+    height: 30px;
+    margin-top: 5px;
+}
+
+.developer {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    margin-top: -5px;
+}
+
+.n_button {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 42px 42px 42px 42px 42px 42px;
+    grid-template-rows: 28px;
+    margin-left: 19px;
+    margin-top: -137px;
+}
+
+.n_button>a {
+    z-index: 3;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #910023;
+    display: grid;
+    place-content: center;
+}
+
+.n_button>a:hover {
+    background: #ff782d;
+    cursor: pointer;
+}
+
+.n_button>a>img {
+    image-rendering: auto;
+    width: auto;
+    height: 18px;
+}
+
+.n_button>p {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    text-align: center;
+    line-height: 140%;
+}
+
+.button {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 113px 113px 113px;
+    grid-template-rows: 55px 55px 55px 55px 55px 55px;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+.button>a {
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 110px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #910023;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    font-size: 13px;
+    color: #910023;
+}
+
+.button>a:hover {
+    border-color: #ff782d;
+}
+
+.button>a:hover .svg,
+a:hover .txt {
+    filter: invert(55%) sepia(65%) saturate(2736%) hue-rotate(341deg) brightness(108%) contrast(104%);
+    cursor: pointer;
+}
+
+.button>a:active {
+    transform: translateY(5px);
+}
+
+.button svg {
+    width: 23%;
+    height: auto;
+    padding: 7.5px;
+}
+
+.button img {
+    image-rendering: auto;
+    width: 23%;
+    height: auto;
+    padding: 7.5px;
+}
+
+select {
+    position: absolute;
+    width: 228px;
+    height: 37px;
+    padding-left: 12px;
+    top: 15px;
+    left: 14px;
+    border: 2px solid #910023;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    color: #910023;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 12.5px;
+    outline: none;
+    appearance: none;
+    background: #ffffff url("/icons/arrow.svg") no-repeat right 10px center;
+    background-size: 14px;
+}
+
+select:hover {
+    cursor: pointer;
+}
